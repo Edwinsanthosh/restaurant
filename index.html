@@ -1,44 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thara's Dine</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <div>
-            <header class="header">
-                <div class="logo">
-                    <h1><span>f</span>oodie</h1>
-                </div>
-                <nav class="nav_bar" id="navbBar">
-                    <ul>
-                        <li>Home</li>
-                        <li>Slot</li>
-                        <li>order</li>
-                        <li>About</li> 
-                    </ul>
-                </nav>
-                <div class="menu-icon" id="menuBtn">
-                    <i class="ri-menu-line"></i>
-                </div>
-            </header>
-            <div>
-                <div class="menu-bar" id="menuBar">
-                    <a>Home</a>
-                    <a>Slot</a>
-                    <a>order</a>
-                    <a>About</a> 
-                </div>
-            </div>
-        </div>
-        <div>
-            <input type="text"/>
-        </div>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Thara's Dine</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Welcome to Thara's Dine</h2>
+      <p>Delicious food made with love and passion.</p>
+      <a href="#menu" class="btn">Explore Menu</a>
     </div>
-    <script src="script.js"></script>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1601924638867-3ec4c89df62c" alt="Pizza">
+        <h3>Cheese Pizza</h3>
+        <p>Freshly baked with mozzarella and tomato sauce.</p>
+        <span>₹249</span>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1604152135912-04a979cb6cfb" alt="Burger">
+        <h3>Classic Burger</h3>
+        <p>Juicy grilled patty with crispy veggies and sauce.</p>
+        <span>₹199</span>
+      </div>
+      <div class="menu-card">
+        <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb36" alt="Pasta">
+        <h3>Italian Pasta</h3>
+        <p>Creamy Alfredo pasta with fresh herbs.</p>
+        <span>₹229</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Thara's Dine is a cozy restaurant serving a variety of delicious dishes.
+       Our chefs use fresh ingredients and traditional recipes to give you a memorable experience.</p>
+  </section>
+
+  <!-- Contact Section -->
+  <footer id="contact">
+    <h2>Contact Us</h2>
+    <p>📍 Chennai, Tamil Nadu</p>
+    <p>📞 +91 98765 43210</p>
+    <p>✉️ tharasdine@gmail.com</p>
+    <p class="footer-note">© 2025 Thara's Dine. All rights reserved.</p>
+  </footer>
 </body>
 </html>
